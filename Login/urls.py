@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from rest_framework import routers, serializers, viewsets
 
 from Login.views import CustomAuthToken
-#urls
+
 urlpatterns = [
     re_path(r'^', CustomAuthToken.as_view()),
 ]
