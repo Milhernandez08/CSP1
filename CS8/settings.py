@@ -97,9 +97,9 @@ WSGI_APPLICATION = 'CS8.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cs8db',
-        'USER': 'postgres',
-        'PASSWORD': '14072017',
+        'NAME': 'yango',
+        'USER': 'admin',
+        'PASSWORD': 'Milh30',
         'HOST':'localhost',
         'PORT':'5432'
     }
